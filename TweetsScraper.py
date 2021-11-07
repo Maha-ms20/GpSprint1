@@ -39,24 +39,5 @@ with open('tweets.csv', 'w') as csvfile:
 
 
 
-   # getOriginalTweets = twitterScraper.TwitterTweetScraper(tweet.inReplyToTweetId, twitterScraper.TwitterTweetScraperMode.RECURSE).get_items()
-
-
-
-
-    #tweets.append({"id": tweet.id, "content": tweet.content})
-
-#f = open("tweets.csv","w")
-#writer = csv.writer(f)
-#writer.writerows(tweets)
-#f.close()
-
-# save as csv
-# heaader = ['Answer id','Answer','Question id','Question']
-#file = open("questions.csv", "w")
-
-#writer = csv.writer(file)
-#writer.writerow(heaader)
-#writer.writerows(tweets)
-#file.close()
+   
 
